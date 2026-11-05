@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #12100E;
+    color: #F4EFE6;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom retro tavern decorative motifs */
+.tavern-border {
+  border-image: linear-gradient(to bottom, #D4972C, rgba(212, 151, 44, 0.2)) 1;
+}
+
+/* Subtle checkered texture for accents */
+.bg-gingham-subtle {
+  background-color: #78181A;
+  background-image: 
+    linear-gradient(45deg, rgba(255, 255, 255, 0.08) 25%, transparent 25%), 
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.08) 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.08) 75%), 
+    linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.08) 75%);
+  background-size: 16px 16px;
+}
+
+/* Subtle vintage film grain overlay */
+.bg-noise {
+  background-image: radial-gradient(rgba(229, 169, 60, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Smooth parallax container */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Belmont Tavern - Belleville, NJ",
+  "description": "The official home of Stretch's famous Chicken Savoy and Shrimp Beeps since 1967. Historic Italian neighborhood restaurant in Belleville, New Jersey.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

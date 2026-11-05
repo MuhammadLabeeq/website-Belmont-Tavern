@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer brick red circle -->
+  <circle cx="32" cy="32" r="30" fill="#78181A" stroke="#E5A93C" stroke-width="2.5"/>
+  <!-- Inner porthole window ring -->
+  <circle cx="32" cy="32" r="23" fill="#1C1917" stroke="#E5A93C" stroke-width="1.5" stroke-dasharray="2 2"/>
+  <!-- Green awning scallop silhouette on top -->
+  <path d="M12 28 C 16 20, 48 20, 52 28 C 47 31, 42 27, 37 30 C 32 27, 27 31, 22 28 C 17 31, 14 28, 12 28 Z" fill="#1C3D2E" opacity="0.9"/>
+  <!-- Vintage B monogram in golden amber -->
+  <text x="32" y="42" font-family="'Times New Roman', serif" font-weight="bold" font-size="26" fill="#E5A93C" text-anchor="middle">B</text>
+  <!-- Tiny 1967 underneath -->
+  <text x="32" y="50" font-family="'Courier New', monospace" font-size="6" fill="#FAF6F0" opacity="0.8" text-anchor="middle" letter-spacing="1">1967</text>
+</svg>
